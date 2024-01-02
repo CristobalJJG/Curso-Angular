@@ -2,10 +2,12 @@
   "name": "curso-angular",
   "version": "0.0.0",
   "scripts": {
+    "all": "concurrently -n \"doc,ng\" -c \"blue,magenta\" \"npm run docs\" \"npm run start\"",
     "ng": "ng",
-    "start": "ng serve -p 4200",
+    "start": "ng serve",
     "docs": "docsify s docs -p 4201",
     "build": "ng build",
+    "buildAll": "concurrently -n \"doc,ng\" -c \"blue,magenta\" \"npm run docs\" \"npm run build\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
