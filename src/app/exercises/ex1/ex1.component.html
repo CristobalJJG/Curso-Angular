@@ -3,3 +3,9 @@
 <p>{{trabajadores[1].nombre}}</p>
 <p>{{trabajadores[1].edad}}</p>
 <p>{{trabajadores[1].contratado}}</p>
+
+<h1 *ngIf="empleado">Parámetro: {{empleado}}</h1>
+<div *ngIf="!empleado">
+    <input type="text" [(ngModel)]="nombre"><br />
+    <button class="btn-active" (click)="redirigir()">Redirigir a {{nombre}}</button>
+</div>
