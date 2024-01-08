@@ -16,7 +16,13 @@ import { Ex1Component } from './exercises/ex1/ex1.component';
 
     //pipes
     SnakePipe,
-     Ex1Component
+
+    //exercises
+    Ex1Component,
+    Ex2Component,
+
+    //directivas
+    NgIfComponent,
   ],
   imports: [
     BrowserModule,

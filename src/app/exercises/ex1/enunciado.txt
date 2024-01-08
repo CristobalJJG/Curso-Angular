@@ -1,1 +1,1 @@
-Crear un componente que se llame "empleados" y qeu muestre un título que haya guardado en la clase del compomnente.
+Crear un componente que se llame "empleados" y que muestre un título que haya guardado en la clase del compomnente.
