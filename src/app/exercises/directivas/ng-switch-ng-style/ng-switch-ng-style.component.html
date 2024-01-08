@@ -1,0 +1,6 @@
+<h3>Colores</h3>
+<ul [ngSwitch]="color">
+    <li *ngSwitchCase="'red'" [ngStyle]="{background:color, 'padding':'11px'}">De color rojo</li>
+    <li *ngSwitchCase="'blue'" [ngStyle]="{background:color, 'padding':'12px'}">De color azul</li>
+    <li *ngSwitchCase="'brown'" [ngStyle]="{background:color, 'padding':'13px'}">De color marron</li>
+</ul>
