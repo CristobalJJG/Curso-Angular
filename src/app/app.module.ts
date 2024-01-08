@@ -23,6 +23,7 @@ import { Ex1Component } from './exercises/ex1/ex1.component';
 
     //directivas
     NgIfComponent,
+    ClickComponent,
   ],
   imports: [
     BrowserModule,
