@@ -11,6 +11,7 @@ import { ClickComponent } from './exercises/directivas/click/click.component';
 import { Ex2Component } from './exercises/ex2/ex2.component';
 import { NgforComponent } from './exercises/directivas/ngfor/ngfor.component';
 import { NgSwitchNgStyleComponent } from './exercises/directivas/ng-switch-ng-style/ng-switch-ng-style.component';
+import { TwdbComponent } from './exercises/directivas/twdb/twdb.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { NgSwitchNgStyleComponent } from './exercises/directivas/ng-switch-ng-st
     ClickComponent,
     NgforComponent,
     NgSwitchNgStyleComponent,
+    TwdbComponent,
   ],
   imports: [
     BrowserModule,
