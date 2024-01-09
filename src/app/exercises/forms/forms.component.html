@@ -1,0 +1,28 @@
+<h1>De coches va la cosa</h1>
+<form action="" #formCoche="ngForm" (ngSubmit)="send(nombre.value, caballaje.value, color.value); formCoche.reset();">
+    <!-- Nombre -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" #nombre="ngModel" [(ngModel)]="coche.nombre" required><br>
+    <p *ngIf="nombre.touched && nombre.invalid">El nombre es incorrecto.</p>
+
+    <!-- Caballaje -->
+    <label for="caballaje">Caballaje:</label>
+    <input type="text" name="caballaje" #caballaje="ngModel" [(ngModel)]="coche.caballaje" required
+        pattern="[0-9]+"><br>
+    <p *ngIf="caballaje.dirty && caballaje.invalid">El caballaje es incorrecto.</p>
+
+    <!-- Color -->
+    <label for="color">Color:</label>
+    <input type="color" name="color" #color="ngModel" [(ngModel)]="coche.color" required pattern="#[0-9a-fA-F]+"><br>
+    <p *ngIf="color.dirty && color.invalid">El color es incorrecto.</p>
+    <br>
+    <input type="submit" value="Enviar" class="btn-active" [disabled]="!formCoche.form.valid">
+</form>
+
+<h2>Coche:</h2>
+<pre>{{coche | json}}</pre>
+
+<h2>Coches:</h2>
+<pre *ngFor="let c of coches, let i=index">
+    {{c|json}}
+</pre>

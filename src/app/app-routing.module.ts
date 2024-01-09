@@ -10,6 +10,7 @@ import { NgClassComponent } from './exercises/directivas/ng-class/ng-class.compo
 import { NgIfComponent } from './exercises/directivas/ng-if/ng-if.component';
 import { Ex3Component } from './exercises/ex3/ex3.component';
 import { Ex4Component } from './exercises/ex4/ex4.component';
+import { FormsComponent } from './exercises/forms/forms.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,7 @@ const routes: Routes = [
       { path: 'twdb', component: TwdbComponent },
     ]
   },
+  { path: 'forms', component: FormsComponent },
 ];
 
 @NgModule({
