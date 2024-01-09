@@ -3,8 +3,7 @@ import { RopaService } from 'src/app/services/ropa.service';
 
 @Component({
   selector: 'app-ex3',
-  templateUrl: './ex3.component.html',
-  providers: [RopaService]
+  templateUrl: './ex3.component.html'
 })
 export class Ex3Component implements OnInit {
   ropa: string[] = [];

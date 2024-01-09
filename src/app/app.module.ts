@@ -14,6 +14,8 @@ import { NgSwitchNgStyleComponent } from './exercises/directivas/ng-switch-ng-st
 import { TwdbComponent } from './exercises/directivas/twdb/twdb.component';
 import { NgClassComponent } from './exercises/directivas/ng-class/ng-class.component';
 import { Ex3Component } from './exercises/ex3/ex3.component';
+import { Ex4Component } from './exercises/ex4/ex4.component';
+import { MultiplicadorPipe } from './pipes/multiplicador.pipe';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { Ex3Component } from './exercises/ex3/ex3.component';
 
     //pipes
     SnakePipe,
+    MultiplicadorPipe,
 
     //exercises
     Ex1Component,
@@ -37,6 +40,7 @@ import { Ex3Component } from './exercises/ex3/ex3.component';
     TwdbComponent,
     NgClassComponent,
     Ex3Component,
+    Ex4Component,
   ],
   imports: [
     BrowserModule,
