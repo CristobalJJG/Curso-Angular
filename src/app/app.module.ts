@@ -13,6 +13,7 @@ import { NgforComponent } from './exercises/directivas/ngfor/ngfor.component';
 import { NgSwitchNgStyleComponent } from './exercises/directivas/ng-switch-ng-style/ng-switch-ng-style.component';
 import { TwdbComponent } from './exercises/directivas/twdb/twdb.component';
 import { NgClassComponent } from './exercises/directivas/ng-class/ng-class.component';
+import { Ex3Component } from './exercises/ex3/ex3.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { NgClassComponent } from './exercises/directivas/ng-class/ng-class.compo
     NgSwitchNgStyleComponent,
     TwdbComponent,
     NgClassComponent,
+    Ex3Component,
   ],
   imports: [
     BrowserModule,

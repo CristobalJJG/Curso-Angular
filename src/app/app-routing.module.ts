@@ -8,6 +8,7 @@ import { NgforComponent } from './exercises/directivas/ngfor/ngfor.component';
 import { TwdbComponent } from './exercises/directivas/twdb/twdb.component';
 import { NgClassComponent } from './exercises/directivas/ng-class/ng-class.component';
 import { NgIfComponent } from './exercises/directivas/ng-if/ng-if.component';
+import { Ex3Component } from './exercises/ex3/ex3.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,7 @@ const routes: Routes = [
       { path: 'ex1', component: Ex1Component },
       { path: 'ex1/:id', component: Ex1Component },
       { path: 'ex2', component: Ex2Component },
+      { path: 'ex3', component: Ex3Component },
     ]
   },
   {

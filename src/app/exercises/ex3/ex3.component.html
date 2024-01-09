@@ -1,0 +1,10 @@
+<p>ex3 works!</p>
+<h1>Usando servicios</h1>
+<input type="text" [(ngModel)]="prenda"><br>
+<p>Se va a guardar {{prenda}}</p>
+<button class="btn-active" (click)="add()">Agregar</button>
+<ul>
+    <li *ngFor="let r of ropa; let i=index">
+        {{r}} <a (click)="remove(i)">Eliminar</a>
+    </li>
+</ul>
