@@ -27,6 +27,10 @@ import { SnakePipe } from './pipes/snake.pipe';
 import { FormsComponent } from './exercises/forms/forms.component';
 import { PeticionesComponent } from './exercises/peticiones/peticiones.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TemplatesComponent } from './exercises/templates/templates.component';
+import { PadreHijoComponent } from './exercises/comunicacion/padre-hijo/padre-hijo.component';
+import { HijoPadreComponent } from './exercises/comunicacion/hijo-padre/hijo-padre.component';
+import { PadreComponent } from './exercises/comunicacion/padre/padre.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +60,10 @@ import { HttpClientModule } from '@angular/common/http';
     /* Complejos */
     FormsComponent,
     PeticionesComponent,
+    TemplatesComponent,
+    PadreHijoComponent,
+    HijoPadreComponent,
+    PadreComponent,
   ],
   imports: [
     BrowserModule,

@@ -12,6 +12,8 @@ import { Ex3Component } from './exercises/ex3/ex3.component';
 import { Ex4Component } from './exercises/ex4/ex4.component';
 import { FormsComponent } from './exercises/forms/forms.component';
 import { PeticionesComponent } from './exercises/peticiones/peticiones.component';
+import { TemplatesComponent } from './exercises/templates/templates.component';
+import { PadreComponent } from './exercises/comunicacion/padre/padre.component';
 
 const routes: Routes = [
   {
@@ -36,6 +38,8 @@ const routes: Routes = [
   },
   { path: 'forms', component: FormsComponent },
   { path: 'peticiones', component: PeticionesComponent },
+  { path: 'plantillas', component: TemplatesComponent },
+  { path: 'comunicacion', component: PadreComponent },
 ];
 
 @NgModule({

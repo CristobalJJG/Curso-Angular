@@ -1,0 +1,18 @@
+<div class="flex">
+    <div class="padre padre1">
+        Padre manda a hijo <input type="number" [(ngModel)]="hijo1">
+        <div class="hijo hijo1">
+            <h2>Hijo1</h2>
+            <app-padre-hijo [dato]="hijo1"></app-padre-hijo>
+        </div>
+    </div>
+
+    <div class="padre padre2">
+        Hijo manda a padre: {{hijo2}}
+        <div class="hijo hijo2">
+            <h2>Hijo2</h2>
+            <app-hijo-padre (event)="recieve($event)"></app-hijo-padre>
+        </div>
+    </div>
+
+</div>

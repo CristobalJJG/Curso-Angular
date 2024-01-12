@@ -1,0 +1,42 @@
+h2 {
+    font: larger bolder;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.padre,
+.hijo {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.padre {
+    width: 300px;
+    height: auto;
+
+    &.padre1 {
+        border-color: red;
+    }
+
+    &.padre2 {
+        border-color: blue;
+    }
+}
+
+.hijo {
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+
+    &.hijo1 {
+        border-color: red;
+    }
+
+    &.hijo1 {
+        border-color: blue;
+    }
+}
