@@ -23,7 +23,10 @@ import { NgClassComponent } from './exercises/directivas/ng-class/ng-class.compo
 import { MultiplicadorPipe } from './pipes/multiplicador.pipe';
 import { SnakePipe } from './pipes/snake.pipe';
 
+/* Complejos */
 import { FormsComponent } from './exercises/forms/forms.component';
+import { PeticionesComponent } from './exercises/peticiones/peticiones.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -49,12 +52,16 @@ import { FormsComponent } from './exercises/forms/forms.component';
     NgClassComponent,
     Ex3Component,
     Ex4Component,
+
+    /* Complejos */
     FormsComponent,
+    PeticionesComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
