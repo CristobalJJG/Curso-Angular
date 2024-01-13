@@ -21,7 +21,6 @@ import { NgClassComponent } from './exercises/directivas/ng-class/ng-class.compo
 
 /* Pipes */
 import { MultiplicadorPipe } from './pipes/multiplicador.pipe';
-import { SnakePipe } from './pipes/snake.pipe';
 
 /* Complejos */
 import { FormsComponent } from './exercises/forms/forms.component';
@@ -40,7 +39,6 @@ import { PadreComponent } from './exercises/comunicacion/padre/padre.component';
     AppComponent,
 
     //pipes
-    SnakePipe,
     MultiplicadorPipe,
 
     //exercises

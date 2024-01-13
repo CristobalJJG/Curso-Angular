@@ -7,8 +7,6 @@ export class RopaService {
   private ropa: string = 'yeezy 350 boost v2'
   private coleccion: string[] = ["Yeezy 350 mejores", 'camiseta suprimo'];
 
-  constructor() { }
-
   getRopa(nombre: string) {
     return nombre;
   }
